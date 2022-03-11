@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, ViewProps } from 'react-native';
-import type { PopoverProps } from './Popover';
+import { PopoverProps } from './Popover';
 import {
   POPOVER_BACKGROUND_COLOR,
   BORDER_RADIUS,

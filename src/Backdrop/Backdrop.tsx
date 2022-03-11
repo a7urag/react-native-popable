@@ -7,7 +7,7 @@ import {
   StyleSheet,
 } from 'react-native';
 import { ANIMATION_DURATION } from '../constants';
-import type { BackdropProps } from './Backdrop.d';
+import { BackdropProps } from './Backdrop.d';
 
 // On iOS, Modal orientations need to be manually specified
 const IOS_MODAL_SUPPORTED_ORIENTATIONS: ModalProps['supportedOrientations'] = [

@@ -17,7 +17,7 @@ import {
 } from 'react-native';
 import Backdrop from './Backdrop';
 import Popover, { PopoverProps } from './Popover';
-import type { PopableManager } from './use-popable/types';
+import { PopableManager } from './use-popable/types';
 
 export type PopableProps = {
   action?: 'press' | 'longpress' | 'hover';

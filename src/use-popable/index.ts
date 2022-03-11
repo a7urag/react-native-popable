@@ -1,5 +1,5 @@
 import { RefObject, useMemo, useRef } from 'react';
-import type { PopableManager } from './types';
+import { PopableManager } from './types';
 
 type Ref = RefObject<PopableManager>;
 
